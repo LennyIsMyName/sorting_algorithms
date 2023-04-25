@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * inseftion_sort_list - this sorts a list using the insertion method.
+ * insertion_sort_list - this sorts a list using the insertion method.
  * @list: the head of the list to be sorted
  * Return: nothing
  */
