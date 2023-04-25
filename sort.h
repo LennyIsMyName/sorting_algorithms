@@ -1,6 +1,7 @@
 #ifndef _SORT_H
 #define _SORT_H
 
+#include <stddef.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
