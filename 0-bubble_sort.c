@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdbool.h>
 
 /**
  * bubble_sort - sorts an array of integers using bubble sort algorithm.
@@ -31,8 +32,12 @@ void bubble_sort(int *array, size_t size)
 		}
 
 		if (swapnum == 0)
+		{
 			swap = false;
+			break;
+		}
 	}
-	if (swap)
+	if (!swap)
 		return;
+	return;
 }
